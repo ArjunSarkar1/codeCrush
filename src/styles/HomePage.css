@@ -1,0 +1,33 @@
+.tindercards-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.card-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Make sure the card takes up the full height */
+}
+
+.bottom-content {
+  margin-top: auto;
+}
+.card img {
+  object-fit: cover;
+}
+
+.button-container {
+  position: absolute;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
